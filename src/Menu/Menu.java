@@ -10,6 +10,8 @@ public class Menu {
     Posr posr = new Posr();
 
     public void menu(){
+
+
         System.out.println("Включение подачи воды ");
         kotel.vkl(posr);
         Zdaniya zdaniya [] = new Zdaniya[10];
@@ -19,4 +21,7 @@ public class Menu {
 
         kotel.vklm(zdaniya);
     }
+
+
+
 }

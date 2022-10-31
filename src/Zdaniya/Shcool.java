@@ -1,11 +1,11 @@
 package Zdaniya;
 
-public class Shcool implements Zdaniya{
+public class Shcool implements Zdaniya {
 
     private final String message = "Школа";
 
     @Override
-    public String getMessage() {return message;}
-
-
+    public String getMessage() {
+        return message;
+    }
 }
