@@ -1,8 +1,10 @@
 package Zdaniya;
 
 public class Adminzdanie implements Zdaniya{
-    @Override
-    public void vklvikl(){
-        System.out.println("Вода поступила в Администрацию");
-    }
+   private final String message = "Администрация";
+
+   @Override
+    public String getMessage() {return message;}
+
+
 }

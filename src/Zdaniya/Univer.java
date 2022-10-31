@@ -1,8 +1,11 @@
 package Zdaniya;
 
 public class Univer implements Zdaniya{
+
+    private final String message = "Университет";
+
     @Override
-    public void vklvikl(){
-        System.out.println("Вода поступила в Универ");
-    }
+    public String getMessage() {return message;}
+
+
 }

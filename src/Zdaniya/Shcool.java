@@ -1,8 +1,11 @@
 package Zdaniya;
 
 public class Shcool implements Zdaniya{
+
+    private final String message = "Школа";
+
     @Override
-    public void vklvikl(){
-        System.out.println("Вода поступила в Школу");
-    }
+    public String getMessage() {return message;}
+
+
 }
